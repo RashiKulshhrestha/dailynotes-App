@@ -1,0 +1,44 @@
+.note-card{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-note{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(252, 227, 89);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.note-content{
+    width: 495px;
+    height: 64px;
+    border: 0 none white;
+    overflow: hidden;
+    margin: 0 auto;
+    outline: none;
+    background:none;
+    text-align: center;
+    padding-top: 5px;
+    font-family: cursive;
+    font-size: medium;
+}
+.add-note{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 2px 2px 5px yellow;
+    color: yellow;
+    font-family: cursive;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.add-note:hover{
+    background-color: rgb(43, 255, 0);
+    color: black;
+}
